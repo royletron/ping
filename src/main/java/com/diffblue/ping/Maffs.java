@@ -5,7 +5,11 @@ package com.diffblue.ping;
  */
 public class Maffs {
     public float multiply(float a, float b) {
-        return a * b;
+        if (a == 0 || b == 0) {
+            return 0;
+        } else {
+            return a * b;
+        }
     }
     public float add(float a, float b) {
         return a + b;
