@@ -3,7 +3,7 @@ package com.diffblue.ping;
 /**
  * Created by darrenroyle on 18/09/2017.
  */
-public class Maffs {
+public class FloatMaffs {
     public float multiply(float a, float b) {
         if (a == 0 || b == 0) {
             return 0;
